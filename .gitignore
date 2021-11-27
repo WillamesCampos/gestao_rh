@@ -3,3 +3,5 @@
 db.sqlite3
 poetry.lock
 .env
+*/migrations/*
+**/__pycache__/*
