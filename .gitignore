@@ -1,0 +1,5 @@
+.vscode
+.python-version
+db.sqlite3
+poetry.lock
+.env
