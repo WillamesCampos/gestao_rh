@@ -12,6 +12,5 @@ class Empresa(models.Model):
         help_text='Nome da empresa'
     )
 
-    class Meta:
-        def __str__(self) -> str:
-            return self.nome
+    def __str__(self) -> str:
+        return self.nome
