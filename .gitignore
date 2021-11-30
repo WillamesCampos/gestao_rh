@@ -5,3 +5,4 @@ poetry.lock
 .env
 */migrations/*
 **/__pycache__/*
+gestao_rh/__pycache__/
