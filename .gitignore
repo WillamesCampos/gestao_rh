@@ -6,3 +6,4 @@ poetry.lock
 */migrations/*
 **/__pycache__/*
 gestao_rh/__pycache__/
+Makefile
