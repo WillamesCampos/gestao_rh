@@ -16,7 +16,8 @@ class Funcionario(models.Model):
     departamentos = models.ManyToManyField(Departamento)
     empresa = models.ForeignKey(
         Empresa,
-        on_delete=models.PROTECT
+        on_delete=models.PROTECT,
+        null=True, blank=True
     )
 
 
